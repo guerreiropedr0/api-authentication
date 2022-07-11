@@ -298,7 +298,7 @@ Doorkeeper.configure do
   #
   # You can completely disable this feature with:
   #
-  allow_blank_redirect_uri false
+  allow_blank_redirect_uri true
   #
   # Or you can define your custom check:
   #
