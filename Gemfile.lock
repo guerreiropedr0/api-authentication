@@ -83,6 +83,8 @@ GEM
       responders
       warden (~> 1.2.3)
     digest (3.1.0)
+    doorkeeper (5.5.4)
+      railties (>= 5)
     erubi (1.10.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -198,6 +200,7 @@ DEPENDENCIES
   bootsnap
   debug
   devise
+  doorkeeper
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.3)
