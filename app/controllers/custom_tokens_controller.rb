@@ -15,7 +15,7 @@ class CustomTokensController < Doorkeeper::TokensController
   def create_response(response)
     return { error: 'Invalid client id or secret' } if response[:error].to_s == 'invalid_client'
 
-    return { error: 'Wrong username or password' } if response[:error].to_s == 'invalid_grant'
+    return { error: 'Wrong email or password' } if response[:error].to_s == 'invalid_grant'
 
     user = User.find_by(id: Doorkeeper::AccessToken.find_by(token: response['access_token']).resource_owner_id)
     { token: response, user: }
