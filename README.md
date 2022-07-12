@@ -1,24 +1,69 @@
-# README
+# API Authentication
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Authentication template for the back-end with Doorkeeper and devise.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- RUBY
+- RAILS
+- GEM
+- TERMINAL
 
-* System dependencies
+## Link to Front-end authentication Template
 
-* Configuration
+You can check the front-end repository [here](https://github.com/guerreiropedr0/front-end-authentication).
 
-* Database creation
+## Getting Started
 
-* Database initialization
+Click the "Use this template" button.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Create a repository with the template.
 
-* Deployment instructions
+Current Ruby Version for this project
 
-* ...
+```
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
+```
+
+Install all the dependencies.
+
+```
+bundle install
+```
+
+Create and migrate the database
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+To run the server
+
+```
+rails s
+```
+
+## Authors
+
+👤 **Pedro Guerreiro**
+
+- GitHub: [@guerreiropedr0](https://github.com/guerreiropedr0)
+- Twitter: [@guerreiropedr0](https://twitter.com/guerreiropedr0)
+- LinkedIn: [Pedro Guerreiro](https://www.linkedin.com/in/guerreiropedr0/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
